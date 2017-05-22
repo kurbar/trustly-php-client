@@ -1,0 +1,18 @@
+{
+	"name": "kurbar/trustly-php-client",
+	"type": "library",
+	"license": "MIT",
+	"require": {
+		"ext-json": "*",
+		"ext-bcmath": "*",
+		"ext-openssl": "*",
+		"ext-curl": "*",
+		"ext-mbstring": "*",
+		"php": ">=5.2.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"Trustly\\": "src/"
+		}
+	}
+}
